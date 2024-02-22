@@ -50,3 +50,4 @@ C:\Dev\Blog\obj\Debug\net8.0\refint\Blog.dll
 C:\Dev\Blog\obj\Debug\net8.0\Blog.pdb
 C:\Dev\Blog\obj\Debug\net8.0\Blog.genruntimeconfig.cache
 C:\Dev\Blog\obj\Debug\net8.0\ref\Blog.dll
+C:\Dev\Blog\obj\Debug\net8.0\Blog.sourcelink.json

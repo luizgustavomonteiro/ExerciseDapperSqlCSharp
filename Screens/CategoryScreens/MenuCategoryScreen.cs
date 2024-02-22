@@ -29,9 +29,9 @@ namespace Blog.Screens.CategoryScreens
                     CreateCategoryScreen.Load();
                     break;
 
-                // case 3:
-                // UpdateCategory.Load();
-                // break;
+                case 3:
+                    UpdateCategoryScreen.Load();
+                    break;
 
                 // case 4:
                 // DeleteCAtegory.Load();
