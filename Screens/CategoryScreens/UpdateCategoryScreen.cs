@@ -25,9 +25,9 @@ namespace Blog.Screens.CategoryScreens
 
             Update(new Category
             {
-                Id = int.Parse(id),
-                Name = name,
-                Slug = slug
+                Id = int.Parse(id!),
+                Name = name!,
+                Slug = slug!
             });
             Console.ReadKey();
             MenuTagScreen.Load();

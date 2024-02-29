@@ -21,9 +21,9 @@ namespace Blog.Screens.CategoryScreens
             var option = short.Parse(Console.ReadLine()!);
             switch (option)
             {
-                // case 1:
-                // ListCategory.Load();
-                // break;
+                case 1:
+                    ListCategoryScreen.Load();
+                    break;
 
                 case 2:
                     CreateCategoryScreen.Load();
@@ -33,9 +33,9 @@ namespace Blog.Screens.CategoryScreens
                     UpdateCategoryScreen.Load();
                     break;
 
-                // case 4:
-                // DeleteCAtegory.Load();
-                // break;
+                case 4:
+                    ListCategoryScreen.Load();
+                    break;
 
                 case 5:
                     MainMenuScreen.MainLoad();
@@ -44,7 +44,6 @@ namespace Blog.Screens.CategoryScreens
                 default:
                     Load();
                     break;
-
             }
 
         }

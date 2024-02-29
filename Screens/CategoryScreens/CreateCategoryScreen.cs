@@ -24,7 +24,7 @@ namespace Blog.Screens.CategoryScreens
                 Slug = slug!
             });
             Console.ReadKey();
-            Load();
+            MenuCategoryScreen.Load();
 
             static void Create(Category category)
             {
