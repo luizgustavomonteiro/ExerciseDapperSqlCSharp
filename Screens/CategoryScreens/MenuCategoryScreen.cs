@@ -34,7 +34,7 @@ namespace Blog.Screens.CategoryScreens
                     break;
 
                 case 4:
-                    ListCategoryScreen.Load();
+                    DeleteCategoryScreen.Load();
                     break;
 
                 case 5:

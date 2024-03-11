@@ -14,7 +14,7 @@ namespace Blog.Screens.TagScreens
             Console.Write("Qual o id da Tag que deseja excluir? ");
             var id = Console.ReadLine();
 
-            Delete(int.Parse(id));
+            Delete(int.Parse(id!));
             Console.ReadKey();
             MenuTagScreen.Load();
 
